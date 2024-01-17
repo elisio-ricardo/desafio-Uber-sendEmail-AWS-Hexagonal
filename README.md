@@ -15,8 +15,11 @@ All listed services are free to try and are pretty painless to sign up for, so p
 Update application.properties puting your AWS Credentials
 
 aws.region=us-east-1
+
 aws.accessKeyId=1111111
+
 aws.secretKey=111111
+
 
 Usage
 
@@ -27,7 +30,9 @@ The API provides the following endpoints:
 
 GET EMAIL
 
+
 POST /api/email/send - Send a e-mail from your sender to the destination
+
 BODY
 
 
