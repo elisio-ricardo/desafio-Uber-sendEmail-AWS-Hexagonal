@@ -33,11 +33,16 @@ GET EMAIL
 
 POST /api/email/send - Send a e-mail from your sender to the destination
 
+
 BODY
 
 
 {
+
   "to": "liveskipperdev@gmail.com",
+  
   "subject": "teste",
+  
   "body": "teste"
+  
 }
